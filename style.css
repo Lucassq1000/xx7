@@ -1,0 +1,44 @@
+@charset "UTF8";
+
+:root {
+    --cor1: #00050F;
+    --cor2: #03204C;
+    --cor3: #38B6FF;
+    --cor4: #0855B1;
+    --cor5: #0855B1;
+
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #c8ebff;
+}
+header {
+    img {
+        width: 100%;
+    }
+}
+nav {
+    margin: -30px 10px 0px 500px;
+}
+nav a {
+    padding: 10px;
+    width: 150px;
+    background-color: var(--cor3);
+    color: var(--cor1);
+    border-radius: 5px;
+}
+main {
+    padding: 0px 150px 10px 150px;
+}
+main section {
+    background-color: #03204C;
+    width: 300px;
+}
+main img {
+    width: 100%;
+}
