@@ -33,11 +33,18 @@ nav a {
     border-radius: 5px;
 }
 main {
+    max-width: 1000px;
+    min-width: 350px;
     padding: 0px 150px 10px 150px;
 }
 main section {
+    background-color: #0855B1;
+}
+main > section > article {
+    display: inline-block;
     background-color: #03204C;
     width: 300px;
+    height: 600px;
 }
 main img {
     width: 100%;
