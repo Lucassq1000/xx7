@@ -71,6 +71,7 @@ main img {
     width: 100%;
 }
 ul {
+    padding-left: 80px;
     text-decoration: none;
     list-style: inside;
 }
