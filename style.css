@@ -79,6 +79,7 @@ ul {
     list-style: inside;
 }
 li > a:hover {
+    color: var(--cor1);
     background-color: var(--cor5);
     padding: 10px;
     border-radius: 5px;
