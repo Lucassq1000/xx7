@@ -84,12 +84,14 @@ button {
     border: solid 2px var(--cor5);
     border-radius: 5px;
     margin: 5px;
+    box-shadow: 0px 0px 7px #38b6ff93; 
 }
 a > button:hover {
-    color: var(--cor3);
+    color: var(--cor5);
     background-color: var(--cor2);
     padding: 10px;
-    border-radius: 5px;   
+    border-radius: 5px; 
+    box-shadow: 0px 0px 3px #38b6ffd5;  
 }
 ul {
     list-style-type: none;
