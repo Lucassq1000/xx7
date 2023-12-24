@@ -23,6 +23,9 @@ header h1{
     margin-top: -200px;
     padding-bottom: 110px;
 }
+header img {
+    width: 100%;
+}
 main {
     margin: auto;
     padding: 50px 10px 10px 10px;
@@ -31,11 +34,25 @@ main {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.534);
     background-image: linear-gradient(to top, var(--cor4), var(--cor3));
 }
-main img {
-        width: 100%;
-}
+
 section {
     border-radius: 5px;
     padding: 10px;
     background-color: var(--cor2);
+}
+div.video {
+    background-color: var(--cor1);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 55%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    border-radius: 5px;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
 }
